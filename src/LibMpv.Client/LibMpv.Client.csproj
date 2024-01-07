@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
 	  <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Copyright>https://github.com/jinyuttt/LibMpv.git</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

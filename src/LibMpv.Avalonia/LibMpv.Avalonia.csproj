@@ -5,11 +5,14 @@
 		<LangVersion>latest</LangVersion>
 		<Nullable>enable</Nullable>
 		<IsAndroid>false</IsAndroid>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>libMpv</VersionSuffix>
 		<IsAndroid Condition="'$([MSBuild]::GetTargetPlatformIdentifier($(TargetFramework)))'=='android'">true</IsAndroid>
+		<PackageProjectUrl>https://github.com/jinyuttt/LibMpv.git</PackageProjectUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Avalonia" Version="11.0.4" />
+		<PackageReference Include="Avalonia" Version="11.0.6" />
 	</ItemGroup>
 
 	<ItemGroup>
